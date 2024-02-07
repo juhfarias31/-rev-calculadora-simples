@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./css/Estilos.css">
+    <script src="./js/JavaScript.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="body">
+        <h2>Calculadora</h2>
+
+        <p>Digite o valor 1:
+            <input type="number" placeholder="informe o valor" id="valor1"></p>
+        
+        <p>Digite o valor 2:
+            <input type="number" placeholder="informe o valor" id="valor2"></p>
+        
+        <label for="operador">Operador:</label>
+    <select name="operador" id="operador">
+        <option value="Somar">Somar</option>
+        <option value="Subtrair">Subtrair</option>
+        <option value="Multiplicar">Multiplicar</option>
+        <option value="Dividir">Dividir</option>
+    </select>
+
+    <button class="button" onclick="Calculadora()">Enter</button>
+
+    <p id="texto">Resultado:</p>
+
+</div>
+</body>
+</html>
